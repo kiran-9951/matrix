@@ -1,0 +1,411 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #0f131a;
+  color: #e0e6ed;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: rgba(0, 22, 29, 1);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid-item h2 {
+  margin: 0 0 10px;
+  color: #00ffda;
+}
+
+.grid-item p {
+  color: #a9b6c4;
+}
+
+.trade-optimizer {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+}
+
+.market-insight {
+  grid-column: 2 / span 2;
+}
+
+.risk-guard {
+  grid-column: 3 / span 1;
+}
+
+.portfolio-sync {
+  grid-column: 1 / span 2;
+}
+
+.opportunity-scout {
+  grid-column: 3 / span 1;
+}
+/* features */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #0f131a;
+  margin: 0;
+  padding: 0;
+}
+
+.about-container {
+  text-align: center;
+  padding: 50px 20px;
+  color: #e0e6ed;
+}
+
+.about-ethai h1 {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.about-ethai p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #a9b6c4;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.read-more-btn {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #00ffda;
+  color: #0f131a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.read-more-btn:hover {
+  background-color: #00e6c3;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.feature-box {
+  background-color: #1c2d3b;
+  justify-content: center;
+  border-radius: 2px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #a9b6c4;
+}
+
+.feature-box h3 {
+  color: #00ffda;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.feature-box p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.feature-box img {
+  margin-bottom: 20px;
+  width: 40px;
+}
+/* Tokenomics */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0F131A;
+  color: #E0E6ED;
+  margin: 0;
+  padding: 0;
+}
+
+.tokenomics-container {
+  text-align: center;
+  padding: 50px 20px;
+  color: #E0E6ED;
+}
+
+.tokenomics-container h1 {
+  font-size: 3rem;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.tokenomics-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.chart-section {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.chart {
+  width: 300px;
+  height: 300px;
+}
+
+.chart img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.chart-label {
+  position: absolute;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+.liquidity-label {
+  top: 10%;
+  left: 70%;
+}
+
+.marketing-label {
+  top: 65%;
+  left: 72%;
+}
+
+.team-label {
+  top: 50%;
+  left: 8%;
+}
+
+.chart-label span {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.line {
+  height: 2px;
+  width: 50px;
+  background-color: #FFFFFF;
+  margin-top: 5px;
+}
+
+.info-section {
+  flex: 1;
+}
+
+.token-info, .token-allocation {
+  background-color: #1C2D3B;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  color: #A9B6C4;
+}
+
+table td {
+  padding: 10px;
+}
+
+table td:nth-child(2) {
+  text-align: center;
+}
+
+table td:nth-child(3) {
+  text-align: right;
+  color: #FFFFFF;
+}
+/* FAQ Container Styling */
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #0e1e28;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.faq-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #c2d4e3;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #1c3947;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px 0;
+  font-size: 20px;
+  color: #c2d4e3;
+  transition: color 0.3s ease;
+}
+
+.faq-question:hover {
+  color: #9cc4e4;
+}
+
+.faq-answer {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #ddd;
+}
+.dapp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color:rgba(0, 22, 29, 1); 
+}
+
+.dapp-content {
+  text-align: center;
+  background: rgba(0, 22, 29, 1);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  max-width: 700px;
+  color: #fff;
+}
+
+.dapp-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #c2d4e3;
+}
+
+.dapp-content .highlight {
+  color: #9cc4e4; 
+}
+
+.dapp-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #c2d4e3;
+}
+
+.open-dapp-btn {
+  background-color: #00c2ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color:rgba(0, 22, 29, 1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.open-dapp-btn:hover {
+  background-color: #00a9e0;
+}
+/* footerunder */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.ethai-logo {
+  height: 50px; 
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.footer-right h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #c2d4e3;
+}
+
+.cta-container {
+  display: flex;
+  align-items: center;
+}
+
+.email-input {
+  padding: 10px 15px;
+  border: 2px solid #1c3947;
+  background-color: transparent;
+  color: white;
+  border-radius: 30px;
+  margin-right: 10px;
+  width: 250px;
+}
+
+.email-input::placeholder {
+  color: #9cc4e4;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #00c2ff;
+  border: none;
+  color: #0e1e28;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #00a9e0;
+}
