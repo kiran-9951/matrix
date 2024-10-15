@@ -1,6 +1,6 @@
 
 import React from "react";
-import helloimage from "../images/page.png";
+import helloimage from "../assets/page.png";
 
 function Navbar() {
     return (

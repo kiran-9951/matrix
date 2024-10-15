@@ -1,5 +1,5 @@
 import React from 'react'
-import roast from "../images/Roadmap.png"
+import roast from "../assets/Roadmap.png"
 const Roadmaps = () => {
   return (
     <div>

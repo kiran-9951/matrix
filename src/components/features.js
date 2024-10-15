@@ -1,10 +1,10 @@
 
 import React from "react";
 import "../App.css";
-import graph from "../images/graph.png"
-import wallet from "../images/wallet.png"
-import tools from "../images/Tools.png"
-import Future from "../images/Future Technology.png"
+import graph from "../assets/graph.png"
+import wallet from "../assets/wallet.png"
+import tools from "../assets/Tools.png"
+import Future from "../assets/Future Technology.png"
 const AboutEthAi = () => {
   return (
     <div className="about-container">

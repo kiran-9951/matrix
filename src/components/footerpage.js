@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaTelegramPlane, FaInstagram, FaTwitter, FaFacebookF, FaDiscord } from 'react-icons/fa';
 import "../App.css";  
-import image from "../images/Frame 43094.png"
+import image from "../assets/Frame 43094.png"
 const Footer = () => {
   return (
     <div className="footer-container">

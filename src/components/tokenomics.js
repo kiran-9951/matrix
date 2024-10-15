@@ -1,7 +1,7 @@
 // Tokenomics.js
 import React from "react";
 import "../App.css";
-import image from "../images/Group 18.png"
+import image from "../assets/Group 18.png"
 const Tokenomics = () => {
   return (
     <div className="tokenomics-container">
